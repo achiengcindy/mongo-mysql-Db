@@ -1,0 +1,29 @@
+{
+  "name": "mongo-mysql-db",
+  "version": "1.0.0",
+  "description": "demostrating no sql and mysql databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achiengcindy/mongo-mysql-Db.git"
+  },
+  "keywords": [
+    "mongoDb",
+    "Mysql",
+    "noSql"
+  ],
+  "author": "cindy Achieng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achiengcindy/mongo-mysql-Db/issues"
+  },
+  "homepage": "https://github.com/achiengcindy/mongo-mysql-Db#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.2.6",
+    "pug": "^2.0.3"
+  }
+}
