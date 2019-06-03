@@ -1,0 +1,21 @@
+extends layout
+block content
+  h3= title
+  form#form_add_book(name="addbook", method="post", action="/addbook")
+    span Title
+    span &nbsp;
+    input#input_title(type="text", placeholder="title", name="title")
+    br
+    br
+    span Year
+    span &nbsp;
+    input#input_year(type="text", placeholder="year", name="year")
+    br
+    br
+    span Author
+    span &nbsp;
+    select(name="author")
+        each  author, i in authorslist
+            option(value="#{author._id}") #{author.author}
+
+    button#submit_student(type="submit") submit

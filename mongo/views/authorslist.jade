@@ -5,4 +5,4 @@ block content
     ul
         each  author, i in authorslist
             li#author-list-item
-                a(href="#") #{author.author} #{author.book}
+                a(href="#") #{author.author} wrote  #{author.books[0].title}

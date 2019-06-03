@@ -1,0 +1,8 @@
+extends layout
+block content
+    h3. 
+        List Of Books
+    ul
+        each  book, i in booklist
+            li#book-list-item
+                a(href="#") #{book.title} wrote by #{book.author} year #{book.year}
